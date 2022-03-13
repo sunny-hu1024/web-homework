@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>墾丁三日遊</title>
+<style>
+	h1{background-color:#F7D98E}
+	</style>
+</head>
+<body>
+	<style>	
+		body{background-color: #FBF9CA}
+	</style>
+	<center><h1>墾丁三日遊</h1></center>
+	<div>
+	  <p>行程:&nbsp;&nbsp;<a	href="https://bunnyann.com/kenting-three-days/" >墾丁三日遊</a></p>
+	</div>
+	
+	<form action="/formprocess.php" method="post">
+
+    <p>姓名:&nbsp;&nbsp;<input type="text" name="name" ></p>
+		
+	<p>生日:&nbsp;&nbsp;<input type="date" id="date" ></p>
+
+    <p>Email:&nbsp;&nbsp;<input name="species" type="text"></p>
+	
+	<p>電話號碼:&nbsp;&nbsp;<input name="number" type="text"></p>
+
+    <p>性別: 
+	<input type="radio" name="interest" value="M">男
+    <input type="radio" name="interest" value="F"> 女
+    <input type="radio" name="interest" value="unknow"> 恕不告知</p>
+		
+	<p>飲食習慣(可複選):&nbsp;
+	<input type="checkbox" value="1" name="vag"> 素食
+	<input type="checkbox" value="2" name="no_bf"> 不吃牛肉
+	<input type="checkbox" value="3" name="no_po"> 不吃豬肉
+	<input type="checkbox" value="3" name="no_ck"> 不吃雞肉
+	<input type="checkbox" value="3" name="no_dk"> 不吃鴨肉</p>
+	
+	<p>T-shirt尺寸:&nbsp;&nbsp;
+	<select name="T-shirt_size">
+    <option value="default" selected>請選擇T-shirt尺寸</option>
+    <option value="s">S</option>
+    <option value="m" >M</option>
+    <option value="l">L</option>
+    <option value="xl">XL</option>
+	</select></p>
+		
+	<table width="500" border="1">
+	<caption>T-shirt&nbsp;尺寸對照表</caption>
+  <tbody>
+    <tr>
+      <th scope="size"></th>
+      <th scope="s">S</th>
+      <th scope="m">M</th>
+	  <th scope="l">L</th>
+	  <th scope="xl">XL</th>
+    </tr>
+    <tr>
+      <th>長</th>
+      <th>1</th>
+      <th>2</th>
+	  <th>3</th>
+	  <th>4</th>
+    </tr>
+	  <tr>
+      <th>寬</th>
+      <th>1</th>
+	  <th>2</th>
+	  <th>3</th>
+	  <th>4</th>
+    </tr>
+    <tr>
+      <th>高</th>
+      <th>1</th>
+      <th>2</th>
+	  <th>3</th>
+      <th>4</th>
+    </tr>
+  </tbody>
+</table>
+		
+	<p>T-shirt顏色:&nbsp;&nbsp;
+	<select name="T-shirt_size">
+    <option value="default" selected>請選擇T-shirt顏色</option>
+    <option value="y">活力黃</option>
+    <option value="pk" >魅力粉</option>
+    <option value="nv">海軍藍</option>
+    <option value="bk">耀石黑</option>
+	</select></p>
+	
+	<p><input type="submit" value="送出資料"></p>
+
+	</form>
+</body>
+</html>
+"# web-homework" 
